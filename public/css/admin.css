@@ -1,0 +1,225 @@
+.select2-selection {
+    height: 34px !important;
+    font-size: 14px;
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.select2-selection__arrow b {
+    top: 62% !important;
+}
+
+.select-list {
+    position: relative;
+}
+
+.select-list select {
+    padding: 4px 20px 3px 12px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 0px;
+}
+
+.select-list select:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.select-list:after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 60%;
+    line-height: 30px;
+    color: #555;
+    pointer-events: none;
+    padding: 2px 5px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered{
+    padding-left: 0;
+}
+
+label > div.select-list {
+    display: inline-block;
+}
+
+.image-component {
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    padding: 4px;
+    background-color: #fff;
+    border: 2px dashed #aaa;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-component img {
+    max-width: 100%;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 4px;
+    top: 0;
+    left: 0;
+}
+
+.image-component .ratio {
+    font-size: 18px;
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.74);
+    padding: 2px 5px;
+    color: white;
+    border-bottom-right-radius: 3px;
+}
+
+.image-component .btn-remove-image {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    transition: 500ms;
+    background-color: rgba(255, 0, 0, 0.42);
+    border-radius: 0 0 0 3px;
+    z-index: 3;
+}
+
+.image-component .btn-remove-image:hover {
+    background-color: rgb(255, 32, 0);
+}
+
+.image-component .icon-plus {
+    font-size: 60px;
+    z-index: 1;
+    cursor: pointer;
+}
+.image-component:not(.has-image) .btn-remove-image, .image-component:not(.has-image) img{
+    display: none;
+}
+.image-component.has-image .icon-plus{
+    display: none;
+}
+
+img.img-flag {
+    height: 20px;
+    display: inline;
+    margin-right: 4px
+}
+
+.color-picker input {
+    text-transform: uppercase;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: #000;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.color-list .color-item {
+    width: 30%;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.color-list .color-item.color-add {
+    position: relative;
+    min-height: 200px;
+    background-color: #fff;
+    border: 2px dashed #aaa;
+    border-radius: 4px;
+}
+
+.color-template, .price-template {
+    display: none;
+}
+
+.select2-dropdown {
+    border: 1px solid #00a1ff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+table tbody tr td, table tr th {
+    vertical-align: middle !important;
+}
+
+table .color-bg {
+    width: 20px;
+    margin: auto;
+    height: 20px;
+    border: 1px solid #dad8d8;
+    border-radius: 50%;
+}
+
+img.img-table{
+    width: 90px;
+    max-height: 55px;
+    object-fit: contain;
+}
+
+.select2-selection{
+    height: 35px !important;
+}
+
+ul.sidebar-menu>li.treeview>a>span, ul.sidebar-menu>li>a{
+    text-transform: uppercase;
+}
+
+input[readonly] {
+    cursor: default !important;
+}
+.color-red{
+    color: red;
+}
+.form-group label>i{
+    display: none;
+}
+.form-group.has-error label>i{
+    display: inherit;
+}
+.form-group .error-message{
+    display: none;
+}
+.form-group.has-error .error-message{
+    display: inherit;
+}
+.form-group.has-error .select2-selection{
+    border-color: #dd4b39 !important;
+    box-shadow: none;
+}
+.form-group.has-error .image-component{
+    border-color: red;
+}
+.form-control.error{
+    border-color: #dd4b39;
+    box-shadow: none;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.qrcode-img{
+    width: 50px;
+    cursor: pointer;
+}

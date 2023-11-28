@@ -1,0 +1,241 @@
+*[onclick]{
+    cursor: pointer;
+}
+.notifications-component{
+    z-index: 99999 !important;
+}
+.noticeDeposit.deposit{
+    font-style: normal !important;
+    font-size: small;
+    margin-top: 5px;
+}
+.noticeDeposit.deposit:last-child{
+    margin-bottom: 10px;
+}
+.notification-dropdown-body.custom{
+    border-bottom: none !important;
+    width: max-content;
+}
+.notification-dropdown-header.custom {
+    border-bottom: none !important;
+}
+.notification-dropdown-phone{
+    margin-left: 4px;
+    color: white !important;
+    font-weight: bold !important;
+}
+.transaction_type, .transaction_status{
+    border-radius: 30px;
+    padding: 4px 8px;
+}
+.transaction_type.recharge{
+    background-color: #4caf50;
+}
+.transaction_type.bet{
+    background-color: #ff9800;
+}
+.transaction_type.buy_vip{
+    background-color: #00806f;
+    color: white;
+}
+.transaction_type.ref{
+    background-color: #ff59ba;
+    color: black;
+}
+.transaction_type.withdrawal{
+    background-color: #9c27b0;
+    color: white;
+}
+.transaction_status.finish{
+    background-color: #008000;
+    color: white;
+}
+.transaction_status.pending{
+    background-color: #ffcc22;
+    color: black;
+}
+.transaction_status.processing{
+    background-color: #ff7022;
+    color: black;
+}
+.transaction_status.cancel{
+     background-color: #000000;
+     color: white;
+ }
+
+.toggleButtonWrapper[data-v-272fdeda] {
+  display: flex;
+}
+.toggleButtonWrapper span[data-v-272fdeda] {
+    display: inline-block;
+    line-height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.toggleButtonWrapper .img[data-v-272fdeda] {
+    width: 35px;
+}
+.toggleButton[data-v-272fdeda] {
+    display: inline-block;
+    overflow: hidden;
+    width: 55px;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #4A3C6F;
+    background-color: transparent;
+    position: relative;
+}
+.toggleButton.isNotButtonOnOff[data-v-272fdeda] {
+    background-color: #2177FF;
+}
+.toggleButton .status[data-v-272fdeda] {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display: block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2;
+    transition: transform 200ms linear;
+}
+.toggleButton .status.no[data-v-272fdeda] {
+    transform: translate(0px, 0px);
+}
+.toggleButton .status.yes[data-v-272fdeda] {
+    transform: translate(30px, 0px);
+}
+.toggleButton.isButtonOnOff[data-v-272fdeda] {
+    background-color: transparent;
+    transition: background-color 200ms linear;
+}
+.toggleButton.isButtonOnOff.hasBg[data-v-272fdeda] {
+    background-color: #31BAA0;
+}
+.toggleButton.hasBg[data-v-272fdeda] {
+    background-color: #31BAA0;
+}
+.line.mb-3{
+    margin-bottom: 0 !important;
+}
+
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.loader {
+    margin: auto;
+    border: 5px dotted #dadada;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logoLogin[data-v-f99ecb42]{
+    background-image: url(../images/logo.png);
+}
+
+.mobile-version .binary_wallet .content{
+    line-height: 40px;
+}
+.bet_condition{
+    text-transform: uppercase;
+}
+.bet_condition.up{
+    color: #31baa0;
+}
+.bet_condition.down{
+    color: #fc5f5f;
+}
+.rdt_TableHeader[role="heading"]{
+    display: none;
+}
+input.dateRageInput{
+    color: #fff !important;
+    border: 0 !important;
+}
+.avatar-vip{
+    background: red;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -4px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+.blockResult>.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row-rs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-rs{
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    margin: 3px;
+    background-color: #40325c;
+}
+@media screen and (max-width: 1204px) {
+    .col-rs {
+        width: 15px;
+        height: 15px;
+        margin: 2px;
+    }
+}
+.col-rs.up{
+    background-color: #31baa0;
+}
+.col-rs.down{
+    background-color: #ff4f58;
+}
+#binaryTransaction .nav-tabs{
+    border-bottom: none;
+}
+.notification-transaction .totalCount{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    background-color: rgb(252, 95, 95);
+}

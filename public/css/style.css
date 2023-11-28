@@ -1,0 +1,77 @@
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    padding-bottom: 25px;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background-color: #545454;
+    text-align: center;
+}
+footer .copy-right, footer .copy-right>a{
+    color: #e6e6e6;
+    font-size: 12px;
+}
+
+img.logo{
+    width: 100px;
+}
+.nav-link{
+    color: #837f7f;
+    padding: 6px !important;
+}
+.nav-link.active{
+    background: #d50000;
+    color: white;
+    border-radius: 5px;
+}
+.btn-danger{
+    background: #d50000;
+}
+p.card-text{
+    margin-bottom: 0;
+}
+.card-subtitle{
+    font-size: 0.8rem;
+}
+.color-red{
+    color: red;
+}
+.card.card-form{
+    box-shadow: 1px 2px 4px 1px #90979ec7;
+}
+.table-check{
+    font-size: 12px;
+}
+.card .btn{
+    padding: 5px;
+}
+table.table-check tr{
+    white-space: nowrap;
+}
+.btn-add, .btn-remove{
+    width: 40px;
+}
+.list-code>.input-group .btn-add{
+    display: none;
+}
+.list-code>.input-group .btn-remove{
+    display: block;
+}
+.list-code>.input-group:last-child .btn-remove{
+    display: none;
+}
+.list-code>.input-group:last-child .btn-add{
+    display: block;
+}

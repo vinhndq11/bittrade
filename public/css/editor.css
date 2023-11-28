@@ -1,0 +1,108 @@
+.editable{
+    border: 1px dashed red;
+    border-radius: 4px;
+    position: relative;
+}
+.editable:hover{
+    border-style: dotted;
+    border-color: blue;
+}
+.editable .hd-input-group{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+}
+.editable:hover .hd-input-group{
+    opacity: 1;
+}
+
+.editable .hd-input-group .input-text{
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.editable .hd-input-group button{
+    display: inline-block;
+    width: 40px;
+}
+.editable .hd-input-group button .img-icon{
+    width: auto;
+    height: 24px;
+    position: initial;
+    object-fit: cover;
+}
+
+.hd-button-group{
+    position: fixed;
+    right: 15px;
+    z-index: 9999;
+    top: 15px;
+}
+
+.hd-button-group>.hd-btn{
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.hd-button-group>.hd-btn:focus{
+    box-shadow: 0 0 0 0.2rem rgba(23,162,184,.5);
+}
+.hd-button-group>.hd-btn.hd-button-cancel{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.editable .editable-item{
+    position: relative;
+}
+.editable .editable-item img{
+    cursor: pointer;
+}
+.editable:hover .editable-item{
+    border: 1px dotted #001fff;
+    border-radius: 5px;
+}
+.editable .editable-item .hd-clone, .editable .editable-item .hd-remove{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    cursor: pointer;
+}
+.editable .editable-item .hd-clone{
+    right: 16px;
+}
+.editable .editable-item .hd-remove{
+    font-size: 21px;
+    line-height: 16px;
+}
+.editable:hover .editable-item .hd-clone, .editable:hover .editable-item .hd-remove{
+    display: block;
+}

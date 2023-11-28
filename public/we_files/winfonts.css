@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: "winbet";
+  src: url('ubunturegular.ttf');
+}
+@font-face {
+  font-family: "winbet";
+  src: url('ubuntubold.ttf');
+  font-weight: bold;
+}
+/* @font-face {
+  font-family: "winbet";
+  src: url('segoeuii.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: "winbet";
+  src: url('seguisb.ttf');
+  font-weight: 300;
+} */
+
+/*@font-face {
+  font-family: "winbet";
+  src: url("./segoeui/segoeui.ttf") format("ttf"),
+    url("./segoeui/segoeui.eot") format("eot"),
+    url("./segoeui/segoeui.woff") format("woff"),
+    url("./segoeui/segoeui.woff2") format("woff2");
+}
+@font-face {
+  font-family: "winbet";
+  src: url('./seguisb/seguisb.ttf') format('ttf') , 
+  url('./seguisb/seguisb.eot') format('eot'),
+  url('./seguisb/seguisb.woff') format('woff'),
+  url('./seguisb/seguisb.woff2') format('woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "winbet";
+  src: url('./segoeuii/segoeuii.ttf') format('ttf') ,
+  url('./segoeuii/segoeuii.eot') format('eot'),
+  url('./segoeuii/segoeuii.woff2') format('woff2'),
+  url('./segoeuii/segoeuii.woff') format('woff') ;
+  font-style: italic;
+}
+@font-face {
+  font-family: "winbet";
+  src: url('./segoeuib/segoeuib.ttf') format('ttf') ,
+  url('./segoeuib/segoeuib.eot') format('eot') ,
+  url('./segoeuib/segoeuib.woff') format('woff') ,
+  url('./segoeuib/segoeuib.woff2') format('woff2') ;
+  font-weight: 300;
+}*/
