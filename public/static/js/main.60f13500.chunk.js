@@ -13152,7 +13152,7 @@
                     var e = this;
                     this.props.fetchingConfig(), this.props.updateAppConfigAction({wrapper_class: E()}), this.props.fetchingUser(), setTimeout((function () {
                         var a = (e.props.memberReducer || {}).login_token;
-                        window.socket = Pt()(e.props.appReducer.socket_linkx1, {query: {login_token: a}}), window.socket.on("WE_RESULT", (function (a) {
+                        window.socket = Pt()(e.props.appReducer.socket_link, {query: {login_token: a}}), window.socket.on("WE_RESULT", (function (a) {
                             var t = a.bet_id;
                             e.props.fetchingUser(), We.getBetResult(t).then((function (a) {
                                 var t = a.data;

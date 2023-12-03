@@ -30,7 +30,7 @@ function showMessageNotification(message) {
 }
 
 jQuery(function () {
-	const socket = io(window.socket_link, {query: {session_id: window.session_id}});
+	const socket = io(window.socket_link1, {query: {session_id: window.session_id}});
 	socket.on('we_message', ({type, message, count}) => {
 		let player = document.getElementById('notification');
 		player.play();
