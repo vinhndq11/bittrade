@@ -12,7 +12,7 @@
     "bank_account": "DEMO",
     "bank_branch": null,
     "minimum_withdrawal": "10",
-    "socket_link": "https:\/\/beetradex.live/",
+    "socket_link": "http:\/\/195.35.22.25:6001/",
     "trial_count": "5",
     "trial_expired_count": "1",
     "single_member_win_percent": "20",
