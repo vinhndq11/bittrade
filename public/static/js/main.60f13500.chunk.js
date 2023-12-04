@@ -13162,6 +13162,7 @@
                                 }
                             }))
                         }))
+                        console.log(window.socket)
                     }), 1e3)
                 }
             }, {
