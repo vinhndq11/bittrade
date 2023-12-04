@@ -44,9 +44,6 @@
 </head>
 <body class="pace-done">
 <noscript>You need to enable JavaScript to run this app 13234234345.</noscript>
-<script !src="">
-    console.log(1);
-</script>
 <div id="root">
     <div class="loader-container">
         <div class="loader"></div>
@@ -143,5 +140,8 @@
     }([])</script>
 <script src="/static/js/2.21eacae1.chunk.js"></script>
 <script src="/static/js/main.60f13500.chunk.js"></script>
+<script>
+    console.log(window.socket);
+</script>
 </body>
 </html>
