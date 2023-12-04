@@ -140,8 +140,5 @@
     }([])</script>
 <script src="/static/js/2.21eacae1.chunk.js"></script>
 <script src="/static/js/main.60f13500.chunk.js"></script>
-<script>
-    console.log(window.socket);
-</script>
 </body>
 </html>
