@@ -44,6 +44,9 @@
 </head>
 <body class="pace-done">
 <noscript>You need to enable JavaScript to run this app 13234234345.</noscript>
+<script !src="">
+    console.log(1);
+</script>
 <div id="root">
     <div class="loader-container">
         <div class="loader"></div>
