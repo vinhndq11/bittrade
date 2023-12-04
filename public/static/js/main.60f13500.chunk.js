@@ -13305,7 +13305,7 @@
                 minimum_deposit: 0,
                 app_loading: !0,
                 minimum_withdrawal: 0,
-                socket_link: window.location.hostname + ":3002",
+                socket_link: window.location.hostname + ":6000",
                 window_width: 1025,
                 is_show_menu: !1,
                 win_value: 0,
