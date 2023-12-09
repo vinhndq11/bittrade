@@ -5644,7 +5644,6 @@
                 key: "componentWillReceiveProps", value: function (e, a) {
                     var t = this;
                     console.log("AV", e);
-                    console.log(window.socket)
                     var s = e.trading_data;
                     if (!this.init_chart || !s.length) {
                         this.init_chart = !0;
