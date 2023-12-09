@@ -1,46 +1,48 @@
-const socket = require("socket.io");
-const redisClient = require("redis").createClient();
-const { tryParse } = require("utils");
-const { Server } = require("socket.io");
-const fs = require("fs");
-const options = {
-    key: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/privkey.pem"),
-    cert: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/fullchain.pem")
-};
-// const httpsServer = require("https").createServer(options);
-const httpsServer = require("http").createServer();
+// Import các thư viện và module cần thiết
+const dotenv = require('dotenv');
+const socketio = require('socket.io');
+const redis = require('redis');
+const tryParse = require('try-parse');
+const http = require('http');
+const socketioServer = require('socket.io');
+const Bet = require('./bet');
 
-const io = new Server(httpsServer, {
+// Đọc các biến môi trường
+dotenv.config();
+
+// Khởi tạo server
+const httpServer = http.createServer();
+const socketioPort = process.env.SOCKET_PORT || 8080;
+const socketioServer = socketio(httpServer, {
     cors: {
-        origin: "*",
-        credentials: true,
+        origin: '*',
     },
 });
 
-io.on("connection", (socket) => {
-    const bet = new Bet(io, tryParse(process.env.PORT));
-    bet.start();
+// Xử lý kết nối socket
+socketioServer.on('connection', (socket) => {
+    console.log('Kết nối socket mới:', socket.id);
 });
 
-const socketPort = parseInt(process.env.PORT || 8080);
+// Lấy tỉ giá giao dịch
+const tradeRate = await getTradeRate();
 
-httpsServer.listen(socketPort, () => {
-    console.log("Running on port", socketPort);
-    redisClient.connect();
-    redisClient.on("message", (channel, data) => {
-        io.to(channel).emit("message", tryParse(data));
-    });
+// Tạo đối tượng Bet
+const bet = new Bet(socketioServer, tradeRate);
+
+// Khởi động đối tượng Bet
+bet.start();
+
+// Kết nối với Redis
+const redisClient = redis.createClient();
+redisClient.on('message', (channel, data) => {
+    const jsonData = tryParse(data);
+    if (jsonData) {
+        socketioServer.emit(channel, jsonData);
+    }
 });
 
-class Bet {
-    constructor(io, socketPort) {
-        this.io = io;
-        this.socketPort = socketPort;
-    }
-
-    start() {
-        this.io.on("bet", (data) => {
-            console.log("Received bet", data);
-        });
-    }
-}
+// Khởi động server
+httpServer.listen(socketioPort, () => {
+    console.log(`Server đã khởi động trên cổng ${socketioPort}`);
+});
