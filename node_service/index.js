@@ -7,8 +7,9 @@ const options = {
     key: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/privkey.pem"),
     cert: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/fullchain.pem")
 };
-const httpsServer = require("https").createServer(options);
-console.log(httpsServer);
+// const httpsServer = require("https").createServer(options);
+const httpsServer = require("http").createServer();
+
 const io = new Server(httpsServer, {
     cors: {
         origin: "*",
