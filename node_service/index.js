@@ -1,10 +1,15 @@
 const socket = require("socket.io");
 const redisClient = require("redis").createClient();
 const { tryParse } = require("utils");
-const httpServer = require("http").createServer();
 const { Server } = require("socket.io");
+const fs = require("fs");
+const options = {
+    key: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/privkey.pem"),
+    cert: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/fullchain.pem")
+};
+const httpsServer = require("https").createServer(options);
 
-const io = new Server(httpServer, {
+const io = new Server(httpsServer, {
     cors: {
         origin: "*",
         credentials: true,
@@ -18,7 +23,7 @@ io.on("connection", (socket) => {
 
 const socketPort = parseInt(process.env.PORT || 8080);
 
-httpServer.listen(socketPort, () => {
+httpsServer.listen(socketPort, () => {
     console.log("Running on port", socketPort);
     redisClient.connect();
     redisClient.on("message", (channel, data) => {
