@@ -8,7 +8,7 @@ const options = {
     cert: fs.readFileSync("/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/fullchain.pem")
 };
 const httpsServer = require("https").createServer(options);
-
+console.log(httpsServer);
 const io = new Server(httpsServer, {
     cors: {
         origin: "*",
@@ -17,7 +17,6 @@ const io = new Server(httpsServer, {
 });
 
 io.on("connection", (socket) => {
-    console.log(process.env.PORT);
     const bet = new Bet(io, tryParse(process.env.PORT));
     bet.start();
 });
