@@ -1,48 +1,30 @@
-// Import các thư viện và module cần thiết
-const dotenv = require('dotenv');
+const http = require('http');
 const socketio = require('socket.io');
 const redis = require('redis');
-const tryParse = require('try-parse');
-const http = require('http');
-const socketioServer = require('socket.io');
-const Bet = require('./bet');
+const { tryParse, getTradeRate } = require('./src/helpers');
+const { ADMIN } = require('./src/config');
 
-// Đọc các biến môi trường
-dotenv.config();
+const port = process.env.PORT || 3000;
 
-// Khởi tạo server
-const httpServer = http.createServer();
-const socketioPort = process.env.SOCKET_PORT || 8080;
-const socketioServer = socketio(httpServer, {
-    cors: {
-        origin: '*',
-    },
-});
+const server = http.createServer();
+const io = socketio(server);
 
-// Xử lý kết nối socket
-socketioServer.on('connection', (socket) => {
-    console.log('Kết nối socket mới:', socket.id);
-});
-
-// Lấy tỉ giá giao dịch
-const tradeRate = await getTradeRate();
-
-// Tạo đối tượng Bet
-const bet = new Bet(socketioServer, tradeRate);
-
-// Khởi động đối tượng Bet
-bet.start();
-
-// Kết nối với Redis
 const redisClient = redis.createClient();
-redisClient.on('message', (channel, data) => {
-    const jsonData = tryParse(data);
-    if (jsonData) {
-        socketioServer.emit(channel, jsonData);
-    }
+
+io.on('connection', socket => {
+    socket.on('we_message', data => {
+        const { bet, get, path } = data;
+        const subscribers = tryParse(data.subscribers);
+        const cookie = tryParse(data.cookie);
+
+        // Your logic here
+    });
+
+    socket.on('disconnect', () => {
+        // Handle disconnect event
+    });
 });
 
-// Khởi động server
-httpServer.listen(socketioPort, () => {
-    console.log(`Server đã khởi động trên cổng ${socketioPort}`);
+server.listen(port, () => {
+    console.log(`Server is running at: http://localhost:${port}`);
 });
