@@ -17,6 +17,7 @@ const io = new Server(httpsServer, {
 });
 
 io.on("connection", (socket) => {
+    console.log(process.env.PORT);
     const bet = new Bet(io, tryParse(process.env.PORT));
     bet.start();
 });
