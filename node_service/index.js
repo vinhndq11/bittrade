@@ -20,8 +20,8 @@ const _0x77f36e = {};
 _0x77f36e[_0x10c891(0x74)] = _0x10c891(0x87), require('\x64\x6f\x74\x65\x6e\x76')[_0x10c891(0x7e)](_0x77f36e);
 var fs = require( 'fs' );
 var options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/socket.ptcd-fpl.edu.vn/fullchain.pem'),
+    key: fs.readFileSync('/etc/letsencrypt/live/beetradex.live/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/beetradex.live/fullchain.pem'),
 
     requestCert: false,
     rejectUnauthorized: false
