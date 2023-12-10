@@ -5,7 +5,7 @@
 <div style="width: 80%; position: absolute;margin: auto; left: 0;right: 0;font-family: sans-serif;border-radius: 4px;background: #fff;border: 1px solid #e1e8ed;padding: 10px;">
     <div style="text-align: center; margin-bottom: 20px">
         <a href="/" style="text-decoration:none"
-           target="_blank"><img alt="logo" src="{{ assetVersion(setting('asset_logo', 'images/logo.png')) }}"
+           target="_blank"><img alt="logo" src="{{ asset('images/logo.png') }}"
                                 style="width: 150px;">
         </a>
     </div>
