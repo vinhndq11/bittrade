@@ -58,7 +58,7 @@
         }
     });
 </script>
-{{--<script src="{{ setting('socket_link') . '/socket.io/socket.io.js' }}"></script>--}}
+<script src="{{ setting('socket_link') . '/socket.io/socket.io.js' }}"></script>
 <script>
     window.socket_link = '{{ setting('socket_link') }}';
     window.session_id = '{{ getCurrentSessionId() }}';
