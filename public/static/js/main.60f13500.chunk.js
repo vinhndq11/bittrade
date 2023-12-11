@@ -7377,7 +7377,7 @@
                                             children: Object(M.jsxs)("p", {
                                                 "data-v-f99ecb42": "",
                                                 className: "colorGray bottomText",
-                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n BeeTradeX?", Object(M.jsx)("a", {
+                                                children: [" Chưa có tài khoản BeeTradeX?", Object(M.jsx)("a", {
                                                     "data-v-f99ecb42": "",
                                                     href: "#",
                                                     onClick: Z("register").bind(this),
