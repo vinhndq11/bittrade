@@ -31,7 +31,6 @@
     </div>
     <div class="login-box-body" style="border: 4px solid rgba(36, 36, 37, 0.5);">
         <p class="login-box-msg">Mời đăng nhập</p>
-        <p style="color: red; font-weight: bold">Sản phẩm này thuộc team Telegram <a target="_blank" href="https://t.me/gamexlt">https://t.me/gamexlt</a> phát triển, các trường hợp liên hệ mua/bán không thông qua team chúng tôi đều có thể là lừa đảo, vui lòng cẩn thận khi giao dịch.</p>
         <form action="{{route('admin.login')}}" method="post" autocomplete="on">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
             @include('backend.layout.partial.alert')
