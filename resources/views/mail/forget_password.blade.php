@@ -22,7 +22,7 @@
         </div>
         <p>hoặc bỏ qua email này nếu đó không phải là bạn...</p>
     </div>
-    <span> <a href="{{ url('/') }}" style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © {{ env('APP_NAME_SUMMARY') }}. 2020 • All rights reserved.</a> </span>
+    <span> <a href="{{ url('/') }}" style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © {{ env('APP_NAME_SUMMARY') }}. {{ date('Y') }} • All rights reserved.</a> </span>
 </div>
 
 </body>

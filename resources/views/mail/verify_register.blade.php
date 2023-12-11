@@ -12,7 +12,7 @@
     <div style="text-align: justify;margin-bottom: 22px;border: 1px solid beige;padding: 5px;border-radius: 5px;">
         <p>&nbsp;&nbsp;&nbsp; Mã OTP đăng ký tài khoản của bạn là: <span style="color:blue;font-size: 1.1em">{{$otp ?? 'xxxx'}}</span> (mã này chỉ được sử dụng 1 lần duy nhất)</p>
     </div>
-    <span> <a href="{{ route('frontend.home.get') }}" style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © BNI. 2017 • All rights reserved.</a> </span>
+    <span> <a href="{{ route('frontend.home.get') }}" style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © BNI. {{ date('Y') }} • All rights reserved.</a> </span>
 </div>
 
 </body>

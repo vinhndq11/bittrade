@@ -16,7 +16,7 @@
         </p>
     </div>
     <span> <a href="/"
-              style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © {{ env('APP_NAME') }}. 2017 • All rights reserved.</a> </span>
+              style="text-decoration:none;font-family: 'Helvetica Neue Light',Helvetica,Arial,sans-serif;color:#8899a6;font-size:12px;font-weight:normal;">Copyright © {{ env('APP_NAME') }}. {{ date('Y') }} • All rights reserved.</a> </span>
 </div>
 
 </body>
