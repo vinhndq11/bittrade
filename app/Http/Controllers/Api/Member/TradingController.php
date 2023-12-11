@@ -22,7 +22,7 @@ class TradingController extends BaseController
         $isBet = Redis::get('is_bet') == 'true';
         $bet_id = Redis::get('bet_id');
         if(empty($bet_id) || !$isBet){
-            return responseJSON_EMPTY_OBJECT(false,'Vui lòng chờ cho đến khi phiên đặt cược mới bắt đầu!');
+            return responseJSON_EMPTY_OBJECT(false,'Vui lòng chờ cho đến khi phiên đặt lệnh mới bắt đầu!');
         }
         $bet_value = request('bet_value', 0);
         $minimum_bet = setting('minimum_bet', 0);
@@ -31,7 +31,7 @@ class TradingController extends BaseController
         }
 
         if($bet_value > $this->user->{"{$this->user->current_point_type}_balance"}){
-            return responseJSON_EMPTY_OBJECT(false,'Giá trị đặt cược không được lớn hơn số tiền đang có!');
+            return responseJSON_EMPTY_OBJECT(false,'Giá trị đặt lệnh không được lớn hơn số tiền đang có!');
         }
 
         $bet_condition = request('bet_condition');
@@ -57,7 +57,7 @@ class TradingController extends BaseController
             (new \App\Services\MemberCommission(COMMISSION_TYPE_TRADE))->applyCommission($member_transaction);
         }
 
-        return responseJSON_EMPTY_OBJECT(true, 'Đặt cược thành công!');
+        return responseJSON_EMPTY_OBJECT(true, 'Đặt lệnh thành công!');
     }
 
     public function getBetResult()
