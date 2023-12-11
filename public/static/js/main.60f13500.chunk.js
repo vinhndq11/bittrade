@@ -6720,7 +6720,7 @@
                                         children: [Object(M.jsx)("p", {
                                             "data-v-5954443c": "",
                                             className: "wbo-title titleLarge mb-4",
-                                            children: "C\xe1c t\xednh n\u0103ng c\u1ee7a Bittrade "
+                                            children: "C\xe1c t\xednh n\u0103ng c\u1ee7a BeeTradeX "
                                         }), Object(M.jsxs)("div", {
                                             "data-v-5954443c": "", className: "row", children: [Object(M.jsxs)("div", {
                                                 "data-v-5954443c": "",
@@ -6993,7 +6993,7 @@
                                                                         }), Object(M.jsx)("p", {
                                                                             "data-v-5954443c": "",
                                                                             className: "color-white-50 text-elips-f14-4l",
-                                                                            children: "\u201cM\xecnh r\u1ea5t khuy\u1ebfn kh\xedch giao d\u1ecbch tr\xean Bittrade nh\u1edd tr\u1ea3i nghi\u1ec7m tuy\u1ec7t v\u1eddi. Vi\u1ec7c giao d\u1ecbch r\u1ea5t \u0111\u01a1n gi\u1ea3n v\xe0 d\u1ec5 d\xe0ng thao t\xe1c ch\u1ec9 v\u1edbi v\xe0i b\u01b0\u1edbc. N\u1ec1n t\u1ea3ng c\u1ee7a Bittrade h\u1ed7 tr\u1ee3 t\u1ea5t c\u1ea3 c\xe1c lo\u1ea1i ti\u1ec1n m\xe3 h\xf3a ph\u1ed5 bi\u1ebfn v\xe0 qu\xe1 tr\xecnh n\u1ea1p r\xfat ti\u1ec1n c\u0169ng di\u1ec5n ra r\u1ea5t su\xf4n s\u1ebb!\u201d"
+                                                                            children: "\u201cM\xecnh r\u1ea5t khuy\u1ebfn kh\xedch giao d\u1ecbch tr\xean BeeTradeX nh\u1edd tr\u1ea3i nghi\u1ec7m tuy\u1ec7t v\u1eddi. Vi\u1ec7c giao d\u1ecbch r\u1ea5t \u0111\u01a1n gi\u1ea3n v\xe0 d\u1ec5 d\xe0ng thao t\xe1c ch\u1ec9 v\u1edbi v\xe0i b\u01b0\u1edbc. N\u1ec1n t\u1ea3ng c\u1ee7a BeeTradeX h\u1ed7 tr\u1ee3 t\u1ea5t c\u1ea3 c\xe1c lo\u1ea1i ti\u1ec1n m\xe3 h\xf3a ph\u1ed5 bi\u1ebfn v\xe0 qu\xe1 tr\xecnh n\u1ea1p r\xfat ti\u1ec1n c\u0169ng di\u1ec5n ra r\u1ea5t su\xf4n s\u1ebb!\u201d"
                                                                         })]
                                                                     }), Object(M.jsx)("div", {
                                                                         "data-v-5954443c": "",
@@ -7048,7 +7048,7 @@
                                                                         }), Object(M.jsx)("p", {
                                                                             "data-v-5954443c": "",
                                                                             className: "color-white-50 text-elips-f14-4l",
-                                                                            children: "\u201cTh\u1eadt \u0111\xe1ng ng\u1ea1c nhi\xean, t\xf4i t\u1eebng l\xe0 m\u1ed9t nh\xe0 \u0111\u1ea7u t\u01b0 \u1edf Ph\u1ed1 Wall. V\xe0 t\xf4i kh\xf4ng bao gi\u1edd th\u1ea5y b\u1ea5t c\u1ee9 \u0111i\u1ec1u g\xec nh\u01b0 th\u1ebf n\xe0y trong kho\u1ea3ng 10 n\u0103m c\u1ee7a t\xf4i t\u1ea1i c\xf4ng ty. C\xe1c \u0111\u1ed3ng nghi\u1ec7p c\u1ee7a t\xf4i \u0111\u1ec1u ngh\u0129 r\u1eb1ng t\xf4i b\u1ecb \u0111i\xean khi r\u1eddi kh\u1ecfi c\xf4ng ty \u0111\u1ec3 \u0111\u1ea7u t\u01b0 v\u1edbi n\u1ec1n t\u1ea3ng Bittrade.Fun to\xe0n th\u1eddi gian. Tuy nhi\xean, n\u1ec1n t\u1ea3ng mang l\u1ea1i l\u1ee3i nhu\u1eadn $55/ng\xe0y, v\xe0 t\u1ea5t c\u1ea3 c\xe1c \u0111\u1ed3ng nghi\u1ec7p c\u1ee7a t\xf4i hi\u1ec7n \u0111ang B\u1eaeT \u0110\u1ea6U xin t\xf4i h\u01b0\u1edbng d\u1eabn h\u1ecd tham gia.\u201d"
+                                                                            children: "\u201cTh\u1eadt \u0111\xe1ng ng\u1ea1c nhi\xean, t\xf4i t\u1eebng l\xe0 m\u1ed9t nh\xe0 \u0111\u1ea7u t\u01b0 \u1edf Ph\u1ed1 Wall. V\xe0 t\xf4i kh\xf4ng bao gi\u1edd th\u1ea5y b\u1ea5t c\u1ee9 \u0111i\u1ec1u g\xec nh\u01b0 th\u1ebf n\xe0y trong kho\u1ea3ng 10 n\u0103m c\u1ee7a t\xf4i t\u1ea1i c\xf4ng ty. C\xe1c \u0111\u1ed3ng nghi\u1ec7p c\u1ee7a t\xf4i \u0111\u1ec1u ngh\u0129 r\u1eb1ng t\xf4i b\u1ecb \u0111i\xean khi r\u1eddi kh\u1ecfi c\xf4ng ty \u0111\u1ec3 \u0111\u1ea7u t\u01b0 v\u1edbi n\u1ec1n t\u1ea3ng BeeTradeX to\xe0n th\u1eddi gian. Tuy nhi\xean, n\u1ec1n t\u1ea3ng mang l\u1ea1i l\u1ee3i nhu\u1eadn $55/ng\xe0y, v\xe0 t\u1ea5t c\u1ea3 c\xe1c \u0111\u1ed3ng nghi\u1ec7p c\u1ee7a t\xf4i hi\u1ec7n \u0111ang B\u1eaeT \u0110\u1ea6U xin t\xf4i h\u01b0\u1edbng d\u1eabn h\u1ecd tham gia.\u201d"
                                                                         })]
                                                                     })]
                                                                 })
@@ -7100,7 +7100,7 @@
                                                                         }), Object(M.jsx)("p", {
                                                                             "data-v-5954443c": "",
                                                                             className: "color-white-50 text-elips-f14-4l",
-                                                                            children: "\u201cCu\u1ed1i c\xf9ng t\xf4i c\u0169ng c\xf3 th\u1ec3 ki\u1ebfm \u0111\u01b0\u1ee3c l\u1ee3i nhu\u1eadn t\u1eeb vi\u1ec7c giao d\u1ecbch ti\u1ec1n m\xe3 h\xf3a. Ngo\xe0i ra, t\xf4i kh\xf4ng c\xf2n ph\u1ea3i theo d\xf5i c\xe1c t\xe0i kho\u1ea3n tr\xean Tradingview \u0111\u1ec3 h\u1ecdc h\u1ecfi c\xe1ch giao d\u1ecbch. Bittrade \u0111\xe3 cho ph\xe9p t\xf4i c\xf3 nhi\u1ec1u th\u1eddi gian h\u01a1n nh\u1edd v\xe0o l\u1ee3i nhu\u1eadn khi giao d\u1ecbch\u201d."
+                                                                            children: "\u201cCu\u1ed1i c\xf9ng t\xf4i c\u0169ng c\xf3 th\u1ec3 ki\u1ebfm \u0111\u01b0\u1ee3c l\u1ee3i nhu\u1eadn t\u1eeb vi\u1ec7c giao d\u1ecbch ti\u1ec1n m\xe3 h\xf3a. Ngo\xe0i ra, t\xf4i kh\xf4ng c\xf2n ph\u1ea3i theo d\xf5i c\xe1c t\xe0i kho\u1ea3n tr\xean Tradingview \u0111\u1ec3 h\u1ecdc h\u1ecfi c\xe1ch giao d\u1ecbch. BeeTradeX \u0111\xe3 cho ph\xe9p t\xf4i c\xf3 nhi\u1ec1u th\u1eddi gian h\u01a1n nh\u1edd v\xe0o l\u1ee3i nhu\u1eadn khi giao d\u1ecbch\u201d."
                                                                         })]
                                                                     })]
                                                                 })
@@ -7150,7 +7150,7 @@
                                                 }), Object(M.jsx)("p", {
                                                     "data-v-24978cff": "",
                                                     className: "font-12",
-                                                    children: "\xa9 2020 Bittrade All rights reserved."
+                                                    children: "\xa9 2020 BeeTradeX All rights reserved."
                                                 })]
                                             }), Object(M.jsx)("div", {
                                                 "data-v-24978cff": "",
@@ -7377,7 +7377,7 @@
                                             children: Object(M.jsxs)("p", {
                                                 "data-v-f99ecb42": "",
                                                 className: "colorGray bottomText",
-                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n Bittrade.Fun?", Object(M.jsx)("a", {
+                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n BeeTradeX?", Object(M.jsx)("a", {
                                                     "data-v-f99ecb42": "",
                                                     href: "#",
                                                     onClick: Z("register").bind(this),
@@ -7461,7 +7461,7 @@
                                                 "data-v-682ccdfa": "",
                                                 href: "/",
                                                 className: "logoLogin mb-0 router-link-active",
-                                                children: "Bittrade"
+                                                children: "BeeTradeX"
                                             }), Object(M.jsx)("div", {
                                                 "data-v-682ccdfa": "",
                                                 onClick: Z("/").bind(this),
@@ -7480,7 +7480,7 @@
                                                 children: [Object(M.jsx)("h2", {
                                                     "data-v-682ccdfa": "",
                                                     className: "font-24 color-white font-weight-bold mb-5",
-                                                    children: "T\u1ea1o t\xe0i kho\u1ea3n Bittrade"
+                                                    children: "T\u1ea1o t\xe0i kho\u1ea3n BeeTradeX"
                                                 }), Object(M.jsxs)("div", {
                                                     "data-v-682ccdfa": "",
                                                     className: "md-field md-theme-default md-has-placeholder",
@@ -7773,7 +7773,7 @@
                                             children: Object(M.jsxs)("p", {
                                                 "data-v-f99ecb42": "",
                                                 className: "colorGray bottomText",
-                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n Bittrade.Fun?", Object(M.jsx)("a", {
+                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n BeeTradeX", Object(M.jsx)("a", {
                                                     "data-v-f99ecb42": "",
                                                     href: "#",
                                                     onClick: Z("login").bind(this),
@@ -7964,7 +7964,7 @@
                                             children: Object(M.jsxs)("p", {
                                                 "data-v-f99ecb42": "",
                                                 className: "colorGray bottomText",
-                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n Bittrade.Fun?", Object(M.jsx)("a", {
+                                                children: [" C\u1ea7n c\xf3 t\xe0i kho\u1ea3n BeeTradeX?", Object(M.jsx)("a", {
                                                     "data-v-f99ecb42": "",
                                                     href: "#",
                                                     onClick: Z("login").bind(this),
@@ -8859,7 +8859,7 @@
                                                     href: "/",
                                                     style: {backgroundImage: "url(".concat(x, ")")},
                                                     className: "logoLogin mb-0 router-link-active",
-                                                    children: "Bittrade"
+                                                    children: "BeeTradeX"
                                                 }), Object(M.jsx)("div", {
                                                     "data-v-f99ecb42": "",
                                                     onClick: this.onClickWithdrawal,
@@ -10969,7 +10969,7 @@
                                                                                 }), " ", Object(M.jsx)("p", {
                                                                                     "data-v-14142db8": "",
                                                                                     className: "color-white-50 mb-0",
-                                                                                    children: "M\u1eddi b\u1ea1n b\xe8 \u0111\u0103ng k\xfd Bittrade qua li\xean k\u1ebft"
+                                                                                    children: "M\u1eddi b\u1ea1n b\xe8 \u0111\u0103ng k\xfd BeeTradeX qua li\xean k\u1ebft"
                                                                                 })]
                                                                             })
                                                                         })]
